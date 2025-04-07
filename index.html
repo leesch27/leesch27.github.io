@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
     <title>Mini Profile - Free Bootstrap CSS Template</title>
-    
+
+    <!-- The nav bar remains the same for every page, so by defining it in only one file, we only
+     need to edit it in one place when we make changes to it. -->
+    <script> $(function(){$("#header").load("header.html");});</script>
 <!--
 Mini Profile Template
 https://templatemo.com/tm-530-mini-profile
